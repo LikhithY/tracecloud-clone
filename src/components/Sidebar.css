@@ -1,0 +1,36 @@
+.main-container{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: rgb(212, 212, 212);
+    color: black;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.SidebarList {
+    margin-top: 0;
+    padding: 150px 0;
+    width: 100%;
+}
+
+.row {
+  height: 50px;
+  list-style-type: none;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.row:hover {
+    background-color: rgb(186, 186, 186);
+    border-radius: 20px;
+}

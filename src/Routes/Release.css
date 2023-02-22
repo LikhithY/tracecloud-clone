@@ -1,0 +1,70 @@
+.release {
+  border: 1px solid gray;
+  margin-top: 150px;
+  margin-left: 350px;
+  width: 70%;
+  border-radius: 15px;
+}
+
+.release > h2 {
+  margin-top: 0;
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: rgba(112, 255, 255, 0.508);
+}
+
+.release-form {
+  display: grid;
+  grid-template-columns: 30% 55%;
+  margin-left: 65px;
+}
+
+.release-form > textarea {
+  margin-bottom: 20px;
+}
+
+button {
+  justify-content: center;
+  min-width: 150px;
+  margin: 20px 51%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: azure;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bad7e9;
+}
+
+.saved-release {
+  border: 1px solid gray;
+  margin: 50px 0 20px 350px;
+  width: 70%;
+  border-radius: 15px;
+}
+
+.saved-release > h3 {
+  margin: 10px 50px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(146, 241, 172);
+}
+
+.saved-release > p {
+  margin: 0 50px 10px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(146, 241, 172);
+  cursor: default;
+}
+
+.saved-release .owner {
+  text-align: center;
+  margin: 0 auto 10px;
+  width: fit-content;
+}
+

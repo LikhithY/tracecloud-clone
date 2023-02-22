@@ -1,0 +1,40 @@
+.middle-container {
+    margin: 0 90px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.my-tools{
+    padding-left: 15px;
+    margin-right: 35px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.my-todo {
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.my-tools-sec {
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-right: 35px;
+    border-radius: 10px;
+    background-color: rgba(112, 255, 255, 0.508);
+}
+
+.my-tools-sec > p {
+    display: flex;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.my-todo-sec {
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgb(146, 241, 172);
+}

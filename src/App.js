@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Tools from "./Routes/Tools";
+import Status from "./Routes/Status";
+import Comments from "./Routes/Comments";
+import Changes from "./Routes/Changes";
+import Home from "./Routes/Home";
+import Release from "./Routes/Release";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} >
+        <Route index element={<Tools />} />
+        <Route path="status" element={<Status />} />
+        <Route path="comments" element={<Comments />} />
+        <Route path="changes" element={<Changes />} />
+      </Route>
+      <Route path="/releaseform" element={<Release />} />
+    </Routes>
   );
 }
 

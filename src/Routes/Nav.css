@@ -1,0 +1,72 @@
+.over-all{
+    margin-left: 250px;
+}
+
+.nav-container {
+    margin: 150px 90px 0 90px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.tools {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.build:hover {
+    background-color: rgb(181, 179, 179);
+}
+
+
+.status {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.status:hover { 
+    background-color: rgb(181, 179, 179);
+}
+
+.comments {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.comments:hover {
+    background-color: rgb(181, 179, 179);
+}
+
+.edit {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.edit:hover {
+    background-color: rgb(181, 179, 179);
+}
